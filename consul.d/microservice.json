@@ -1,0 +1,9 @@
+{
+  "service": {
+    "name": "microservice",
+    "tags": [
+      "microservice"
+    ],
+    "port": 4000
+  }
+}
