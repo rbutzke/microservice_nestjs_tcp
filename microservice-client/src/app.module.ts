@@ -5,7 +5,7 @@ import { Transport, ClientsModule } from '@nestjs/microservices';
 @Module({
   imports: [
    ClientsModule.register([
-    { name: 'TESTE_SERVICE', transport: Transport.TCP },
+    { name: 'TESTE_SERVICE', transport: Transport.TCP, options:{ port:4000 } },
    ]),
  ],
 controllers: [AppController],

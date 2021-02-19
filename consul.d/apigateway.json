@@ -1,0 +1,9 @@
+{
+  "service": {
+    "name": "api-gateway",
+    "tags": [
+      "api-gateway"
+    ],
+    "port": 3000
+  }
+}
